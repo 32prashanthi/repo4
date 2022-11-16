@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="twitter.SampleTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\RDRL\webapptwitter\target\test-classes;C:\Users\RDRL\webapptwitter\target\classes;C:\Users\RDRL\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\RDRL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\RDRL\.m2\repository\org\webjars\angularjs-google-maps\1.17.6\angularjs-google-maps-1.17.6.jar;C:\Users\RDRL\.m2\repository\org\webjars\angularjs\1.2.18\angularjs-1.2.18.jar;C:\Users\RDRL\.m2\repository\org\testcontainers\mysql\1.17.5\mysql-1.17.5.jar;C:\Users\RDRL\.m2\repository\org\testcontainers\jdbc\1.17.5\jdbc-1.17.5.jar;C:\Users\RDRL\.m2\repository\org\testcontainers\database-commons\1.17.5\database-commons-1.17.5.jar;C:\Users\RDRL\.m2\repository\org\testcontainers\testcontainers\1.17.5\testcontainers-1.17.5.jar;C:\Users\RDRL\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\RDRL\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\RDRL\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\RDRL\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\RDRL\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\RDRL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\RDRL\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.2.13\docker-java-transport-zerodep-3.2.13.jar;C:\Users\RDRL\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\RDRL\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.country.format" value="ID"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
+    <property name="sun.java.command" value="C:\Users\RDRL\AppData\Local\Temp\surefire10570622519270345397\surefirebooter6677192734871801017.jar C:\Users\RDRL\AppData\Local\Temp\surefire10570622519270345397 2022-11-16T18-02-05_482-jvmRun1 surefire4644064498039960174tmp surefire_014590440332263136987tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\RDRL\webapptwitter\target\test-classes;C:\Users\RDRL\webapptwitter\target\classes;C:\Users\RDRL\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\RDRL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\RDRL\.m2\repository\org\webjars\angularjs-google-maps\1.17.6\angularjs-google-maps-1.17.6.jar;C:\Users\RDRL\.m2\repository\org\webjars\angularjs\1.2.18\angularjs-1.2.18.jar;C:\Users\RDRL\.m2\repository\org\testcontainers\mysql\1.17.5\mysql-1.17.5.jar;C:\Users\RDRL\.m2\repository\org\testcontainers\jdbc\1.17.5\jdbc-1.17.5.jar;C:\Users\RDRL\.m2\repository\org\testcontainers\database-commons\1.17.5\database-commons-1.17.5.jar;C:\Users\RDRL\.m2\repository\org\testcontainers\testcontainers\1.17.5\testcontainers-1.17.5.jar;C:\Users\RDRL\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\RDRL\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\RDRL\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\RDRL\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\RDRL\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\RDRL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\RDRL\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.2.13\docker-java-transport-zerodep-3.2.13.jar;C:\Users\RDRL\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\RDRL\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\RDRL"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\RDRL\webapptwitter"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\RDRL\AppData\Local\Temp\surefire10570622519270345397\surefirebooter6677192734871801017.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
+    <property name="user.name" value="RDRL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\RDRL\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\RDRL\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="C:\Users\RDRL\webapptwitter"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="id"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.17\bin;C:\Users\RDRL\Downloads\apache-maven-3.8.6\bin;C:\Users\RDRL\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="twitter.SampleTest" time="0"/>
+</testsuite>
